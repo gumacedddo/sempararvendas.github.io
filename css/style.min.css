@@ -1,0 +1,313 @@
+@font-face {
+    font-family: Source Sans Pro;
+    src: url(../fonts/SourceSansPro-Bold.eot);
+    src: url(../fonts/SourceSansPro-Boldd41d.eot?#iefix) format("embedded-opentype"), url(../fonts/SourceSansPro-Bold.html) format("woff2"), url(../fonts/SourceSansPro-Bold.woff) format("woff"), url(../fonts/SourceSansPro-Bold.ttf) format("truetype"), url(../fonts/SourceSansPro-Bold.svg#SourceSansPro-Bold) format("svg");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Source Sans Pro;
+    src: url(../fonts/SourceSansPro-Black.eot);
+    src: url(../fonts/SourceSansPro-Blackd41d.eot?#iefix) format("embedded-opentype"), url(../fonts/SourceSansPro-Black.html) format("woff2"), url(../fonts/SourceSansPro-Black.woff) format("woff"), url(../fonts/SourceSansPro-Black.ttf) format("truetype"), url(../fonts/SourceSansPro-Black.svg#SourceSansPro-Black) format("svg");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Source Sans Pro;
+    src: url(../fonts/SourceSansPro-Regular.eot);
+    src: url(../fonts/SourceSansPro-Regulard41d.eot?#iefix) format("embedded-opentype"), url(../fonts/SourceSansPro-Regular.html) format("woff2"), url(../fonts/SourceSansPro-Regular.woff) format("woff"), url(../fonts/SourceSansPro-Regular.ttf) format("truetype"), url(../fonts/SourceSansPro-Regular.svg#SourceSansPro-Regular) format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Source Sans Pro;
+    src: url(../fonts/SourceSansPro-SemiBold.eot);
+    src: url(../fonts/SourceSansPro-SemiBoldd41d.eot?#iefix) format("embedded-opentype"), url(../fonts/SourceSansPro-SemiBold.html) format("woff2"), url(../fonts/SourceSansPro-SemiBold.woff) format("woff"), url(../fonts/SourceSansPro-SemiBold.ttf) format("truetype"), url(../fonts/SourceSansPro-SemiBold.svg#SourceSansPro-SemiBold) format("svg");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap
+}
+
+.btn,
+.btn:focus {
+    outline: none;
+    box-shadow: none
+}
+
+.form-control:focus {
+    border-color: #0054b8;
+    box-shadow: none !important
+}
+
+.btn-primary {
+    background: #D60350;
+    border-color: #D60350
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+    background: #0054b8;
+    border-color: #0054b8
+}
+
+.btn-outline-primary {
+    color: #000000;
+    border-color: #D60350
+}
+
+.btn-outline-primary:active,
+.btn-outline-primary:focus,
+.btn-outline-primary:hover {
+    background: #0054b8;
+    border-color: #0054b8
+}H
+
+body {
+    font-size: 14px;
+    overflow-x: hidden;
+    font-family: Source Sans Pro, sans;
+    font-weight: 300
+}
+
+body,
+body a {
+    color: #000000
+}
+
+body a,
+body a:hover {
+    text-decoration: none
+}
+
+body a:hover {
+    color: #f4811f
+}
+
+header {
+    background: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .231);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1
+}
+
+header .container {
+    height: 70px
+}
+
+.left-column {
+    background: #EDEDED;
+    height: 100vh;
+    position: relative;
+    padding: 60px
+}
+
+.left-column .rainbow {
+    position: absolute;
+    top: 68px;
+    left: 50%;
+    width: 384px;
+    margin-left: -192px
+}
+
+.left-column .wrapper-left .title {
+    color: #0c0c0c;
+    font-weight: 900;
+    line-height: 1
+}
+
+.left-column .wrapper-left .title.txt-1 {
+    font-size: 38px
+}
+
+.left-column .wrapper-left .title.txt-2 {
+    font-size: 76px
+}
+
+.left-column .wrapper-left .title.txt-3 {
+    font-size: 38px
+}
+
+.right-column {
+    background: #fff;
+    background-size: cover;
+    height: 100vh;
+    padding: 60px
+}
+
+.right-column .rainbow {
+    position: absolute;
+    top: inherit;
+    bottom: 58px;
+    left: inherit;
+    right: 70px;
+    width: 384px;
+    transform: rotate(180deg)
+}
+
+.right-column .main-title {
+    color: #000000;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 58px
+}
+
+.right-column .subtitle {
+    color: #58585a;
+    font-size: 24px;
+    margin: 10px 0 20px
+}
+
+.right-column .actions button {
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 10px 60px
+}
+
+.right-column .actions button .type {
+    font-size: 24px;
+    font-weight: 900
+}
+
+.right-column .actions .or {
+    position: relative;
+    margin: 15px 0;
+    text-align: center
+}
+
+.right-column .actions .or:before {
+    background: #d9d9d9;
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 240px;
+    left: 50%;
+    margin-left: -120px;
+    top: 11px;
+    z-index: 0
+}
+
+.right-column .actions .or span {
+    position: relative;
+    z-index: 0;
+    background: #fff;
+    padding: 10px
+}
+
+footer {
+    background: #D60350;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+footer .rainbow {
+    position: absolute;
+    width: 384px;
+    top: -24px;
+    transform: rotate(180deg);
+    right: 60px
+}
+
+footer .copyright {
+    color: #fff;
+    height: 60px;
+    font-size: 20px
+}
+
+@media (max-width:1000px) {
+    header {
+        position: relative;
+        z-index: 2
+    }
+
+    .layout-main-wrapper {
+        flex-direction: column
+    }
+
+    .left-column {
+        height: 450px;
+        justify-content: center
+    }
+
+    .left-column .rainbow {
+        top: -1px
+    }
+
+    .left-column .wrapper-left .icon-title {
+        display: flex;
+        justify-content: center;
+        margin: 0 0 20px
+    }
+
+    .left-column .wrapper-left .icon-title img {
+        width: 100px
+    }
+
+    .left-column .wrapper-left .title {
+        text-align: center;
+        line-height: 1.2
+    }
+
+    .left-column .wrapper-left .title.txt-1 {
+        font-size: 28px
+    }
+
+    .left-column .wrapper-left .title.txt-2 {
+        font-size: 54px
+    }
+
+    .left-column .wrapper-left .title.txt-3 {
+        font-size: 28px
+    }
+
+    .right-column {
+        height: 680px;
+        align-items: flex-start !important
+    }
+
+    .right-column .main-title {
+        font-size: 36px;
+        line-height: 1.2
+    }
+
+    .right-column .actions button {
+        padding: 10px 30px
+    }
+
+    .right-column .actions button .type {
+        font-size: 21px;
+        text-align: left;
+        line-height: 1.4
+    }
+
+    footer .rainbow {
+        position: absolute;
+        left: 50%;
+        width: 384px;
+        margin-left: -192px;
+        top: -24px;
+        right: inherit;
+        transform: rotate(180deg)
+    }
+
+    footer .copyright {
+        position: relative;
+        font-size: 16px;
+        text-align: center;
+        padding: 0 65px
+    }
+}
